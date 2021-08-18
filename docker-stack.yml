@@ -29,6 +29,7 @@ services:
     ports:
       - "5044:5044"
       - "5000:5000"
+      - "7000:7000"
       - "9600:9600"
     configs:
       - source: logstash_config
